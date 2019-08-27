@@ -1,5 +1,5 @@
 <script>
-	export let name;
+	export let title;
 </script>
 
-<h1>Hello {name}!</h1>
+<h1>Hello {title}</h1>
