@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "hypernova": "^2.5.0",
-    "hypernova-svelte": "^1.0.1",
+    "hypernova-svelte": "^1.1.0",
     "svelte": "^3.4.4"
   },
   "devDependencies": {
