@@ -61,10 +61,7 @@ const client = {
         }
       }
     ]
-  },
-  plugins: [
-    new NodemonPlugin()
-  ]
+  }
 }
 
 module.exports = [server, client]

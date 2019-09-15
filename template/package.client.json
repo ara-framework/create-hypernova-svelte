@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack --watch --mode development",
-    "start": "node dist/server.js"
+    "dev": "webpack-dev-server --watch --mode development"
   },
   "dependencies": {
     "hypernova": "^2.5.0",
@@ -25,9 +24,9 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "nodemon-webpack-plugin": "^4.0.7",
     "svelte-loader": "^2.13.4",
     "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.8.0"
   }
 }
